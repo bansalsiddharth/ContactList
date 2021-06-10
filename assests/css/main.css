@@ -1,0 +1,98 @@
+/*Author:Siddharth Bansal
+Date:June 10,2021
+*/
+
+.contact_list_img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.all_image_icons {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#backButon {
+    position: absolute;
+    z-index: 100;
+}
+
+.contact_list_group {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact_relation {
+    font-size: 17px;
+    color: #000000;
+}
+
+.contact_name {
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.list-group {
+    width: 100%;
+}
+
+.contact_heading {
+    padding-bottom: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-top: 9px;
+    padding-left: 5px;
+}
+
+.contact_header {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.all_image_icons.back_button {
+    float: left !important;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 70px;
+    padding-right: 20px;
+    opacity: 30%;
+}
+
+#contact_card_name {
+    font-size: 32px;
+}
+
+#steve_id #bill_id #mark_id #scott_id #barack_id #larry_id #backButon {
+    cursor: pointer;
+}
+
+.contact_information>.list-group-item {
+    font-weight: 900;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: beige;
+    }
+}
